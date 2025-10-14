@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
 	fclose(source_file);
 	fclose(dest_file);
 
-	printf("good\n", argv[1], argv[2]);
+	printf("test hi my name is jungyun go\n", argv[1], argv[2]);
 	return 0;
 }
 
