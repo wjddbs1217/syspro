@@ -1,7 +1,2 @@
-testThis is content already in FILE 2.
-hi myname is jungyun go
-hihhThis is content from FILE 1.
-hi myname is jungyun go
-hihhThis is content from FILE 1.
-hi myname is jungyun go
-hihhThis is content from FILE 1.
+test
+hi my name is jungyun go

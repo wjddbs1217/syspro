@@ -1,2 +1,1 @@
-hi myname is jungyun go
-hihhThis is content from FILE 1.
+hi my name is jungyun go
