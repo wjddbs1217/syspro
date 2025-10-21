@@ -11,14 +11,14 @@ struct BookRecord {
 
 int main() {
 	struct BookRecord books[] = {
-		{1, "1984", "George", 1949, 0, 1},
-        {2, "Luster", "Raven", 2020, 0, 1},
-        {3, "Hamnet", "Maggie", 2020, 0, 1},
-        {4, "theWish", "Nicholas", 2021, 0, 1},
+		{1, "1984", "George", 1949, 7, "False"},
+        {2, "Luster", "Raven", 2020, 3, "True"},
+        {3, "Hamnet", "Maggie", 2020, 0, "False"},
+        {4, "theWish", "Nicholas", 2021, 2, "True"},
 };
 int numBooks = sizeof(books) / sizeof(books[0]);
-printf("모든 책의 정보를 출력\n");
-printf("아이디\t책 이�\t저자이름\t출판년도\t대출횟수\t대출 유무 \n");
+printf("list of all book, 1: list of available books\n");
+printf("id\tbookname\tauthor\tyear\tnumofborrow borrow \n");
 for (int i = 0; i < numBooks; i++) {
 	if (books[i].isAvailable) {
 		printf("%d\t\t%s\t\t%s\t\t%d\n", books[i].id, books[i].name, books[i].author, books[i].publicationYear);
